@@ -1,0 +1,22 @@
+PATH
+  remote: .
+  specs:
+    simplelogica_the_game (0.1.0)
+      gosu (>= 0.9.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    gosu (0.11.3.1)
+    rake (10.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.10)
+  rake (~> 10.0)
+  simplelogica_the_game!
+
+BUNDLED WITH
+   1.13.6
