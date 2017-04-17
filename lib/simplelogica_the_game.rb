@@ -1,6 +1,6 @@
 require 'simplelogica_the_game/version'
 require 'simplelogica_the_game/sprite'
-
+require 'simplelogica_the_game/bullet'
 require 'simplelogica_the_game/ship'
 require 'simplelogica_the_game/enemy'
 require 'simplelogica_the_game/game'

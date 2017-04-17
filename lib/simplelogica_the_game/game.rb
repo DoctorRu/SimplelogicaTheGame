@@ -182,6 +182,7 @@ module SimplelogicaTheGame
         def handle_kills
             @enemies.reject! { |x| x.killed? }
             @bullets.reject! { |x| x.killed? }
+            self.game_over if @ship.killed? && !@dead
         end
 
         def game_over
